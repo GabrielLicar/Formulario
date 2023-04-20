@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulário</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="container">
+    <h1>Formulário</h1>
+    <div id="formulario">
+      <form>
+        <p>Nome:
+        <input type="text" name="nome" id="nome"></p>
+        <p>
+          Email:
+          <input type="email" name="email" id="email">
+        </p>
+        <p>Mensagem:</p>
+        <textarea placeholder="Digite sua mensagem por gentileza." name="mensagem" id="mensagem" cols="30" rows="10"></textarea>
+        <p id="botao"><button type="button" onclick="enviar()">Enviar</button></p>
+        <div id="msg"></div>
+      </form>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
