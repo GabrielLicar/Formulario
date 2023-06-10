@@ -13,5 +13,10 @@ function enviar() {
   }else {
     msg.style.color = '#8CB65F'
     msg.innerText = "Bip Bop! Mensagem enviada com sucesso!";
+
+    // Limpar os campos após o envio
+    document.getElementById('nome').value = "";
+    document.getElementById('email').value = "";
+    document.getElementById('mensagem').value = "";
   }
 }

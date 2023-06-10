@@ -12,12 +12,16 @@
     <h1>Formulário</h1>
     <div id="formulario">
       <form>
-        <p>Nome:
-        <input type="text" name="nome" id="nome"></p>
-        <p>
-          Email:
+        <div class="divs">
+          <p>Nome:</p>
+          <input type="text" name="nome" id="nome">
+        </div>
+
+        <div class="divs">
+          <p>Seu Email:</p>
           <input type="email" name="email" id="email">
-        </p>
+        </div>
+        
         <p>Mensagem:</p>
         <textarea placeholder="Digite sua mensagem por gentileza." name="mensagem" id="mensagem" cols="30" rows="10"></textarea>
         <p id="botao"><button type="button" onclick="enviar()">Enviar</button></p>

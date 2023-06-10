@@ -10,6 +10,11 @@ body {
   font-family: 'Red Hat Display', sans-serif;
 }
 
+h1 {
+  margin-bottom: 10px;
+  text-shadow: 0 5px 10px #000000a6;
+}
+
 #container {
   display: flex;
   flex-direction: column;
@@ -41,6 +46,13 @@ form {
   gap: 12px;
 }
 
+.divs {
+  display: flex;
+  justify-content: space-between;
+  line-height: 19px;
+  gap: 10px;
+}
+
 input {
   height: 20px;
   width: 250px;
@@ -59,6 +71,7 @@ textarea {
   border-radius: 12px;
   color: white;
   padding: 10px;
+  resize: none;
 }
 
 textarea::placeholder{
